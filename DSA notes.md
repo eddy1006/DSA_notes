@@ -1,3 +1,6 @@
+<h1 align = "center">DSA notes</h1>
+
+
 1. suppose u do a\^b = c (\^ = xor) now if you do b\^c u will get a again
  and vice versa therefore if you keep on doing xor between these three
  numbers only u will never get a new number. 
