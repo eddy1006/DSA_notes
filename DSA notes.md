@@ -129,3 +129,5 @@ if a%4 == 0 &nbsp;&nbsp; ans = a <br>
 25. Divide two integers without using divison,multiplication and mod operator :- https://leetcode.com/problems/divide-two-integers/discuss/13407/C%2B%2B-bit-manipulations
 
 26. ~0 = a sequence of 1s. similarly -1 is also a sequence of 1s.
+
+27. <a href="https://www.codingninjas.com/blog/2020/09/09/floyds-cycle-detection-algorithm/#:~:text=Floyd's%20cycle%2Dfinding%20algorithm%20is,pointers%20of%20the%20head%20node."><strong>Floyd’s Cycle Detection Algorithm</strong></a>
