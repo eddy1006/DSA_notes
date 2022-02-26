@@ -127,3 +127,5 @@ if a%4 == 0 &nbsp;&nbsp; ans = a <br>
 24. f(i) = i\^(i\>\>1) will give you the ith term of gray code.
 
 25. Divide two integers without using divison,multiplication and mod operator :- https://leetcode.com/problems/divide-two-integers/discuss/13407/C%2B%2B-bit-manipulations
+
+26. ~0 = a sequence of 1s.
