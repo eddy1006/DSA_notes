@@ -128,4 +128,4 @@ if a%4 == 0 &nbsp;&nbsp; ans = a <br>
 
 25. Divide two integers without using divison,multiplication and mod operator :- https://leetcode.com/problems/divide-two-integers/discuss/13407/C%2B%2B-bit-manipulations
 
-26. ~0 = a sequence of 1s.
+26. ~0 = a sequence of 1s. similarly -1 is also a sequence of 1s.
