@@ -131,3 +131,5 @@ if a%4 == 0 &nbsp;&nbsp; ans = a <br>
 26. ~0 = a sequence of 1s. similarly -1 is also a sequence of 1s.
 
 27. <a href="https://www.codingninjas.com/blog/2020/09/09/floyds-cycle-detection-algorithm/#:~:text=Floyd's%20cycle%2Dfinding%20algorithm%20is,pointers%20of%20the%20head%20node."><strong>Floyd’s Cycle Detection Algorithm</strong></a>
+
+28.Running a loop till sqrt(n) will give you all of its prime and odd factors. 
