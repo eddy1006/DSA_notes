@@ -164,3 +164,4 @@ if a%4 == 0 &nbsp;&nbsp; ans = a <br>
        }
 
 ```
+   Read more here :- https://www.geeksforgeeks.org/sieve-of-eratosthenes/
