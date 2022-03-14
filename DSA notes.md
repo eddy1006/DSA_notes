@@ -132,4 +132,35 @@ if a%4 == 0 &nbsp;&nbsp; ans = a <br>
 
 27. <a href="https://www.codingninjas.com/blog/2020/09/09/floyds-cycle-detection-algorithm/#:~:text=Floyd's%20cycle%2Dfinding%20algorithm%20is,pointers%20of%20the%20head%20node."><strong>Floyd’s Cycle Detection Algorithm</strong></a>
 
-28. To check for if a number is prime or not run a loop only till sqrt(n). 
+28. To check for if a number is prime or not run a loop only till sqrt(n).
+
+29. Sieve of Eratosthenes :- It is a technique which is used to find all the prime numbers in a given range/ till a particular number.
+```
+       void eliminate(vector<int>& arr,int num,int limit){
+           int i=2;
+           while(num*i<= limit){
+               arr[num*i]=1;
+               i++;
+           }
+       }
+
+       int main()
+       {
+           ios_base::sync_with_stdio(false);
+           cin.tie(NULL);
+           int n;
+           cin>>n;
+           vector<int> arr(n+1,0); 
+           int count = 0;
+           for(int i=2;i<=n;i++){
+               if(arr[i] == 0){
+                   cout<<i<<"\n";
+                   count++;
+                   eliminate(arr,i,n);
+               }
+           }
+           cout<<count;
+           return 0;
+       }
+
+```
