@@ -165,3 +165,28 @@ if a%4 == 0 &nbsp;&nbsp; ans = a <br>
 
 ```
    Read more here :- https://www.geeksforgeeks.org/sieve-of-eratosthenes/
+   
+   30. If we want to braek a number n in a such a way that all the numbers that we break n into gives us the maximum product....we would have to take all 2s or 3s or          factors of 2s and 3s. For better understanding refer to this https://leetcode.com/problems/integer-break/discuss/80721/Why-factor-2-or-3-The-math-behind-this-problem.
+   ```
+        int integerBreak(int n) {
+             if(n == 2)
+                 return 1;
+             if(n==3)
+                 return 2;
+             int ans1;
+             int ans2;
+             if(n%2){
+                 ans1 = pow(2,(n/2)-1)*3;
+             }else{
+                 ans1 = pow(2,(n/2));
+             }
+             if(n%3 == 1){
+                 ans2 = pow(3,(n/3)-1)*4;
+             }else if(n%3 == 2){
+                 ans2 = pow(3,(n/3))*2;
+             }else{
+                 ans2 = pow(3,n/3);
+             }
+             return max(ans1,ans2);
+         }
+    ```
