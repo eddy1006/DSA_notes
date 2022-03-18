@@ -209,4 +209,6 @@ if a%4 == 0 &nbsp;&nbsp; ans = a <br>
          return root;
        }
        ```
+       
+   32. To find factors of a number just run a loop for numbers till sqrt(n) because the idea is that if i divides n then obviously n/i will also divide n so we dont have to check above sqrt(n).
 
