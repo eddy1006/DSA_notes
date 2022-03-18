@@ -189,4 +189,24 @@ if a%4 == 0 &nbsp;&nbsp; ans = a <br>
              }
              return max(ans1,ans2);
          }
-    ```
+         
+   ```
+  31. Finding square root of a number using newton Raphson method
+      Complexity of the algorithm :- O(log(n) * f(n))
+
+      Original formula root = (x + n/x) / 2 and for x = n we get LHS = RHS . Then we calculate error in our assumed root(x) and actual root.
+      ```
+      double findSqrt(double n){
+        double x = n;   //assumed root
+        double root;     // actual root
+        while(true){
+           root = 0.5 *(x + (n/x));   //formula
+           if(abs(root-x) < 0.5){    //Checking error 
+              break;
+          }
+         x = root;
+        }
+         return root;
+       }
+       ```
+
