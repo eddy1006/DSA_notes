@@ -211,4 +211,6 @@ if a%4 == 0 &nbsp;&nbsp; ans = a <br>
        ```
        
    32. To find factors of a number just run a loop for numbers till sqrt(n) because the idea is that if i divides n then obviously n/i will also divide n so we dont have to check above sqrt(n).
+   
+   33. <strong>HCF</strong> of two numbers a & b is equal to the <strong><em>minimum value</em></strong> of the equation (ax + by) where both x and y are integers. 
 
