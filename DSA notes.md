@@ -213,4 +213,6 @@ if a%4 == 0 &nbsp;&nbsp; ans = a <br>
    32. To find factors of a number just run a loop for numbers till sqrt(n) because the idea is that if i divides n then obviously n/i will also divide n so we dont have to check above sqrt(n).
    
    33. <strong>HCF</strong> of two numbers a & b is equal to the <strong><em>minimum value</em></strong> of the equation (ax + by) where both x and y are integers. 
+   
+   34. The list of all <strong><em>subsequences</em></strong> for the word "apple" would be "a", "ap", "al", "ae", "app", "apl", "ape", "ale", "appl", "appe", "aple", "apple", "p", "pp", "pl", "pe", "ppl", "ppe", "ple", "pple", "l", "le", "e", "" . 
 
