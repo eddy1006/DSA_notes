@@ -215,4 +215,6 @@ if a%4 == 0 &nbsp;&nbsp; ans = a <br>
    33. <strong>HCF</strong> of two numbers a & b is equal to the <strong><em>minimum value</em></strong> of the equation (ax + by) where both x and y are integers. 
    
    34. The list of all <strong><em>subsequences</em></strong> for the word "apple" would be "a", "ap", "al", "ae", "app", "apl", "ape", "ale", "appl", "appe", "aple", "apple", "p", "pp", "pl", "pe", "ppl", "ppe", "ple", "pple", "l", "le", "e", "" . 
+   
+   35. Space complexity of a recursive algorithm :- height of tree (max number of functions in the stack during entire execution). 
 
