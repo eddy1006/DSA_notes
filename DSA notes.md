@@ -216,5 +216,9 @@ if a%4 == 0 &nbsp;&nbsp; ans = a <br>
    
    34. The list of all <strong><em>subsequences</em></strong> for the word "apple" would be "a", "ap", "al", "ae", "app", "apl", "ape", "ale", "appl", "appe", "aple", "apple", "p", "pp", "pl", "pe", "ppl", "ppe", "ple", "pple", "l", "le", "e", "" . 
    
-   35. Space complexity of a recursive algorithm :- height of tree (max number of functions in the stack during entire execution). 
+   35. Space complexity of a recursive algorithm :- height of tree (max number of functions in the stack during entire execution).
+   
+   36. <strong>Akra Bazzi Theorem</strong> for finding time complexities of divide and conquer recurrence relations https://www.geeksforgeeks.org/akra-bazzi-method-for-finding-the-time-complexities/
+   
+   37. In Akra bazzi theorem if p < power of g(x) then ans is O(g(x)).   
 
