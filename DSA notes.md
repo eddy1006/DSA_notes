@@ -220,5 +220,22 @@ if a%4 == 0 &nbsp;&nbsp; ans = a <br>
    
    36. <strong>Akra Bazzi Theorem</strong> for finding time complexities of divide and conquer recurrence relations https://www.geeksforgeeks.org/akra-bazzi-method-for-finding-the-time-complexities/
    
-   37. In Akra bazzi theorem if p < power of g(x) then ans is O(g(x)).   
+   37. In Akra bazzi theorem if p < power of g(x) then ans is O(g(x)).
+   
+   38. Two pointer technique to detect cycle in a linked list
+        ```
+        public boolean hasCycle(ListNode head) {
+        if(head == null || head.next == null)
+            return false;
+        ListNode fast = head.next;
+        ListNode slow = head;
+        while(fast != null && fast.next != null){
+            if(fast == slow)
+                return true;
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        return false;
+       }
+       ```
 
