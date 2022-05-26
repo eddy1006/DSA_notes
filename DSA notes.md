@@ -238,4 +238,5 @@ if a%4 == 0 &nbsp;&nbsp; ans = a <br>
         return false;
        }
        ```
+   39. Intersection of two Linked lists :- https://leetcode.com/problems/intersection-of-two-linked-lists/     
 
