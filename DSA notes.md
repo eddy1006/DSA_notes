@@ -239,5 +239,5 @@ if a%4 == 0 &nbsp;&nbsp; ans = a <br>
        }
        ```
    39. Intersection of two Linked lists :- https://leetcode.com/problems/intersection-of-two-linked-lists/     
-   40. For accessing the nth node from the last of the linked list use two pointers with the gap of n+1 in between them.
+   40. For accessing the nth node from the last of the linked list use two pointers with the gap of n+1 in between them along with a dummy head.
 
