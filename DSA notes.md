@@ -240,4 +240,5 @@ if a%4 == 0 &nbsp;&nbsp; ans = a <br>
        ```
    39. Intersection of two Linked lists :- https://leetcode.com/problems/intersection-of-two-linked-lists/     
    40. For accessing the nth node from the last of the linked list use two pointers with the gap of n+1 in between them along with a dummy head.
+   41. Basic Linked List problems in one post :- https://leetcode.com/problems/add-two-numbers/discuss/1340/A-summary-about-how-to-solve-Linked-List-problem-C%2B%2B
 
