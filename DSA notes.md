@@ -244,4 +244,8 @@ if a%4 == 0 &nbsp;&nbsp; ans = a <br>
    42. https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/
    43. Inorder traversal of a binary tree :- https://practice.geeksforgeeks.org/problems/inorder-traversal-iterative/1
    44. https://www.geeksforgeeks.org/enumeration-of-binary-trees/
+   45. Array implementation of binary tree for root at index 0
+       if (say)father=p; 
+          then left_son=(2*p)+1; 
+          and right_son=(2*p)+2;
 
