@@ -248,4 +248,5 @@ if a%4 == 0 &nbsp;&nbsp; ans = a <br>
        if (say)father=p; 
           then left_son=(2*p)+1; 
           and right_son=(2*p)+2;
-
+      
+   46. https://www.geeksforgeeks.org/program-nth-catalan-number/
